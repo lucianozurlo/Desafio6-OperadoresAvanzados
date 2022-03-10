@@ -1,0 +1,42 @@
+//CONSOLE
+const consola = () => {
+    console.log('*********************************************');
+    console.log(' Valores Input ');
+    console.log('---------------------------------------------');
+    console.log(vacioPeso);
+    console.log(vacioPrecio);
+    console.log(costillaPeso);
+    console.log(costillaPrecio);
+    console.log(entranaPeso);
+    console.log(entranaPrecio);
+    console.log('*********************************************');
+    console.log(' Valores CheckNaN ');
+    console.log('---------------------------------------------');
+    console.log(asado);
+    console.log('---------------------------------------------');
+    console.log(`Cantidad Vacío: ${asado[0].peso}`);
+    console.log(`Cantidad Costilla: ${asado[1].peso}`);
+    console.log(`Cantidad Entraña: ${asado[2].peso}`);
+    console.log(`Sumar Carbón: ${carbonBoolean}`);
+    console.log(`Tengo Descuento: ${beneficiosBoolean}`);
+    console.log('---------------------------------------------');
+    console.log(`Precio del Vacío: ${asado[0].precioKilo}`);
+    console.log(`Precio del Costilla: ${asado[1].precioKilo}`);
+    console.log(`Precio de la Entraña: ${asado[2].precioKilo}`);
+    console.log(`Precio del Carbón: ${asado[3].precioKilo}`);
+    console.log('---------------------------------------------');
+    console.log(`Precio Final del Vacío: ${asado[0].precioTotal}`);
+    console.log(`Precio Final del Costilla: ${asado[1].precioTotal}`);
+    console.log(`Precio Final de la Entraña: ${asado[2].precioTotal}`);
+    console.log(`Precio Final del Carbón: ${asado[3].precioTotal}`);
+    console.log('---------------------------------------------');
+    console.log(`Suma de la carne y carbón: ${asadoPrecioTotal}`);
+    console.log('---------------------------------------------');
+    console.log(`Descuento: ${descuento}`);
+    console.log('---------------------------------------------');
+    console.log(`Total: ${precioFinal}`);
+    console.log('*********************************************');
+    console.log(beneficiosLeyenda);
+    console.log('---------------------------------------------');
+    console.log(listaFinal);
+}

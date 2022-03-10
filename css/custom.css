@@ -1,0 +1,96 @@
+.naranjaColor {
+  color: #f37d00;
+}
+.naranjaBG {
+  background-color: #f37d00;
+}
+.naranjaBorder {
+  border-color: #f37d00;
+}
+
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+nav {
+  position: fixed !important;
+  width: 100vw;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.header-top {
+  padding: 0.5rem 1rem;
+}
+.badge {
+  font-size: 0.9rem;
+}
+.header-bg {
+  background-image: url(../img/headerBG.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+  padding: 4rem 0 1rem;
+}
+section {
+  background-color: #17181d;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+section.light {
+  background-color: #1d1f26;
+}
+.mensaje {
+  font-weight: 300;
+  margin: 0.3rem 0;
+  min-height: 25px;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  width: auto !important;
+  margin: auto;
+  text-transform: uppercase;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f37d00;
+  border-color: #f37d00;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ad5900;
+  border-color: #ad5900;
+}
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: #f37d00;
+  border-color: #f37d00;
+}
+#listado {
+  list-style-type: none;
+  padding-top: 10px;
+}
+#listado li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+#listado li strong,
+#listado p span,
+#conclusion span {
+  color: #f37d00;
+}
+#listado span {
+  font-weight: 300;
+  font-style: italic;
+}
+#listado p {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+#conclusion {
+  border: 1px solid #fff;
+    width: auto;
+    margin: 5px auto 25px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.05);
+}
